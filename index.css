@@ -1,0 +1,103 @@
+body {
+	font-family:monospace;
+	font-weight:bold;
+}
+
+canvas {
+	border:10px outset orange;
+	vertical-align:middle;
+}
+
+canvas, #color, #size , #login, h2{
+	clear:left;
+}
+
+h2, ul {
+	text-align:center;
+	margin:10px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+canvas, #color, #size {
+	float:right;
+}
+
+button {
+	margin:3px;
+}
+
+h1 {
+	margin:0px;
+}
+
+#color, #size, #login {
+	border:10px outset blue;
+	border-radius:20px;
+	padding:10px;
+}
+
+#login {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+
+#login .login {
+	border:10px outset orange;
+	border-radius:10px;
+	padding:10px;
+	margin:20px;
+}
+
+#color, #size {
+	position:relative;
+}
+
+#leftcontent {
+	float:left;
+}
+
+#leftcontent > div{
+	text-align:center;
+	border:10px outset green;
+	border-radius:20px;
+	padding:10px;
+	background-color:#EFFFFF;
+}
+
+.error, .incorrect {
+	text-align:center;
+	color:red;
+}	
+
+.incorrect {
+	margin:0px;
+}
+
+.correct {
+	color:green;
+	margin:0px;
+}
+
+.user {
+	border:2px outset orange;
+	border-radius:10px;
+	padding-top:3px;
+}
+
+.thick {
+	vertical-align:middle;
+}
+
+.guessbox {
+	background-color:#FF9988;
+}
+
+#coins {
+	color:blue;
+	text-decoration:underline;
+}
